@@ -36,7 +36,7 @@
     <servlet-name>search</servlet-name>
     <url-pattern>/search</url-pattern>
   </servlet-mapping>
-      <!-- Fine Ricerca -->
+      <!-- Fine Ricerca  -->
   <servlet>
     <servlet-name>addToCart</servlet-name>
     <servlet-class>servlet.AddToCart</servlet-class>
