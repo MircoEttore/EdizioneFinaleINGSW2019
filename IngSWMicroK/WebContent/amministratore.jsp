@@ -15,9 +15,9 @@
 			<td>Aggiungi Evento</td>
 		</tr>
 
-		<tr id="AggiugniCanzone">
+		<tr id="AggiugniArtista">
 			<td>
-				<form method="POST" action="AggiungiArtista"><!-- AggiungiCanzone -->
+				<form method="POST" action="aggiungiartista">
 					<div class="form-group">
 						<label>Nome</label><br> <input name="nome"> <br>
 						<label>Immagine</label><br><input class="form-control" name="path"><br>
@@ -28,7 +28,7 @@
 			</td>
 			
 			<td>
-				<form method="POST" action="AggiungiCanzone">
+				<form method="POST" action="aggiungiCanzone">
 					<div class="form-group">
 						<label>Titolo</label><br> <input name="titolo"> <br>
 						<label>Album</label> <br><input name="album"><br>
