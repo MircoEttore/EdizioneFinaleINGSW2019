@@ -11,7 +11,7 @@
 	<table class="Macro">
 		<tr class="Menu">
 			<td>Aggiungi Canzone</td>
-			<td>Aggiungi Artista</td>
+			<td>Aggiuangi Artista</td>
 			<td>Aggiungi Evento</td>
 		</tr>
 
