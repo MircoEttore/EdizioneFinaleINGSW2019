@@ -12,34 +12,25 @@ import persistence.dao.UtenteDao;
 
 public class PostgresDAOFactory extends DAOFactory {
 
-	
-	
-	private static  DataSource dataSource;
-	
-
-	// --------------------------------------------
+	private static DataSource dataSource;
 
 	static {
-		try { 
+		try {
 			Class.forName("org.postgresql.Driver");
-			//questi vanno messi in file di configurazione!!!	
-			//dataSource=new DataSource("jdbc:postgresql://localhost:5432/postgres","postgres","postgres");
-		//	dataSource=new DataSource("jdbc:postgresql://192.168.1.4:5432/Database_MicroK","postgres","postgres");
-		//	dataSource=new DataSource("jdbc:postgresql://37.183.87.125:5432/postgres","postgres","password");
-			dataSource=new DataSource("jdbc:postgresql://192.168.43.197:5432/Database_MicroK","postgres","postgres");
-		//	dataSource=new DataSource("jdbc:postgresql://localhost:5432/Database_MicroK","postgres","postgres");
-
-		} 
-		catch (Exception e) {
-			System.err.println("PostgresDAOFactory.class: failed to load Postgres JDBC driver\n"+e);
+			// questi vanno messi in file di configurazione!!!
+			// dataSource=new
+			// DataSource("jdbc:postgresql://localhost:5432/postgres","postgres","postgres");
+			dataSource = new DataSource("jdbc:postgresql://192.168.1.2:5432/Database_MicroK", "postgres", "postgres");
+			// dataSource=new
+			// DataSource("jdbc:postgresql://37.183.87.125:5432/postgres","postgres","password");
+//			dataSource=new DataSource("jdbc:postgresql://192.168.43.197:5432/Database_MicroK","postgres","postgres");
+			// dataSource=new
+			// DataSource("jdbc:postgresql://localhost:5432/Database_MicroK","postgres","postgres");
+		} catch (Exception e) {
+			System.err.println("PostgresDAOFactory.class: failed to load Postgres JDBC driver\n" + e);
 			e.printStackTrace();
 		}
 	}
-
-	
-	// --------------------------------------------
-	
-
 	@Override
 	public CanzoneDao getCanzoneDao() {
 		return new CanzoneDaoJDBC(dataSource);
@@ -62,6 +53,6 @@ public class PostgresDAOFactory extends DAOFactory {
 
 	@Override
 	public UtenteDao getUtenteDAO() {
-		return new UtenteDaoJDBC (dataSource);
+		return new UtenteDaoJDBC(dataSource);
 	}
 }

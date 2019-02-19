@@ -55,6 +55,40 @@
 				</form>
 			</td>
 		</tr>
+		
+				<tr>
+			<td>Modifica Artista</td>
+			<td>Modifica Canzone</td>
+			<td>Modifica Evento</td>
+		</tr>
+		<tr>
+			<td>
+				<form method="POST" action="">
+					<input type="text" placeholder="digita Artista">
+					<div>
+						<input type="submit" value="cerca">
+					</div>
+				</form>
+			</td>
+			<td>
+				<form method="POST" action="">
+					<input type="text" placeholder="digita Canzone">
+					<div>
+						<input type="submit" value="cerca">
+					</div>
+				</form>
+
+			</td>
+			<td>
+				<form method="POST" action="">
+					<input type="text" placeholder="digita Evento">
+					<div>
+						<input type="submit" value="cerca" onclick="ApriPopUp()">
+					</div>
+				</form>
+			</td>
+		</tr>
+		
 	</table>
 </body>
 </html>

@@ -233,7 +233,7 @@ $(document).ready(function()
 					$(this).jPlayer("setMedia", {
 						title:"Fuori Dal Tunnel",
 							artist:"MarcoMengoni",
-							mp3:"assets/Caparezza-Fuoridaltunnel.mp3"
+							mp3:"assets/canzoni/Caparezza-Fuoridaltunnel.mp3"
 					});
 				},
 				play: function() { // To avoid multiple jPlayers playing together.
@@ -275,43 +275,43 @@ $(document).ready(function()
 					title:"PLAYLIST POP",
 					artist:"PLAYLIST POP",
 					album:"italy",
-					mp3:"files/Ligabue.mp3",
-					poster:"assets/PopCopertina.jpg"
+					mp3:"assets/canzoni/Ligabue.mp3",
+					poster:"assets/generi/PopCopertina.jpg"
 				},
 				{
 					title:"PLAYLIST RAP",
 					artist:"PLAYLIST RAP",
 					album:"italy",
-					mp3:"files/articolo31lamiaragazzamena.mp3",
-					poster:"assets/RapCopertina.jpg"
+					mp3:"assets/canzoni/articolo31lamiaragazzamena.mp3",
+					poster:"assets/generi/RapCopertina.jpg"
 				},
 				{
 					title:"PLAYLIST REVIVAL",
 					artist:"PLAYLIST REVIVALs",
 					album:"italy",
-					mp3:"files/mellowmooddanceinnababylon.mp3",
-					poster:"assets/Revival.jpg"
+					mp3:"assets/canzoni/mellowmooddanceinnababylon.mp3",
+					poster:"assets/generi/Revival.jpg"
 				},
 				{
 					title:"PLAYLIST METAL",
 					artist:"Ligabue",
 					album:"ital",
-					mp3:"files/ironmaidenfearofthedark.mp3",
-					poster:"assets/MetalCopertina.jpg"
+					mp3:"assets/canzoni/ironmaidenfearofthedark.mp3",
+					poster:"assets/generi/MetalCopertina.jpg"
 				},
 				{
 					title:"PLAYLISTR RAGGAE",
 					artist:"Ligabue",
 					album:"italy",
-					mp3:"files/Ligabue.mp3",
-					poster:"assets/RAGGAEcopertina.jpg"
+					mp3:"assets/canzoni/Ligabue.mp3",
+					poster:"assets/generi/RAGGAEcopertina.jpg"
 				},
 				{
 					title:"PLAYLIST FOLK",
 					artist:"PLAYLIST FOLK",
 					album:"italy",
-					mp3:"files/mannarinomesombriacato.mp3",
-					poster:"assets/Folk.jpg" 
+					mp3:"assets/canzoni/mannarinomesombriacato.mp3",
+					poster:"assets/generi/Folk.jpg" 
 					
 				}
 			];

@@ -37,22 +37,32 @@
     <url-pattern>/search</url-pattern>
   </servlet-mapping>
       <!-- Fine Ricerca  -->
-  <servlet>
-    <servlet-name>addToCart</servlet-name>
-    <servlet-class>servlet.AddToCart</servlet-class>
-  </servlet>
-  <servlet-mapping>
-    <servlet-name>addToCart</servlet-name>
-    <url-pattern>/addToCart</url-pattern>
-  </servlet-mapping>
-  <servlet>
-    <servlet-name>logout</servlet-name>
-    <servlet-class>servlet.Logout</servlet-class>
-  </servlet>
-  <servlet-mapping>
-    <servlet-name>logout</servlet-name>
-    <url-pattern>/logout</url-pattern>
-  </servlet-mapping>
+      
+     <!--Inizio Aggiungi al carrello -->
+    <servlet>
+	    <servlet-name>addToCart</servlet-name>
+	    <servlet-class>servlet.AddToCart</servlet-class>
+	 </servlet>
+  	<servlet-mapping>
+	    <servlet-name>addToCart</servlet-name>
+	    <url-pattern>/addToCart</url-pattern>
+  	</servlet-mapping>
+  	
+   <!--Fine Aggiungi al carrello -->
+  
+   <!--Inizio Logout -->
+   <servlet>
+  	 <servlet-name>logout</servlet-name>
+     <servlet-class>servlet.Logout</servlet-class>
+   </servlet>
+   <servlet-mapping>
+	    <servlet-name>logout</servlet-name>
+	    <url-pattern>/logout</url-pattern>
+   </servlet-mapping>
+   <!--Fine  Logout -->
+   
+   
+  <!--Inizio Cancella Canzone -->
   <servlet>
     <servlet-name>deleteSong</servlet-name>
     <servlet-class>servlet.DeleteSong</servlet-class>
@@ -61,6 +71,10 @@
     <servlet-name>deleteSong</servlet-name>
     <url-pattern>/delete</url-pattern>
   </servlet-mapping>
+  <!--Fine Cancella Canzone -->
+  
+  
+  <!--Inizio Aggiungi Artista -->
   <servlet>
     <servlet-name>aggiungiArtista</servlet-name>
     <servlet-class>servlet.AggiungiArtista</servlet-class>
@@ -69,14 +83,20 @@
     <servlet-name>aggiungiArtista</servlet-name>
     <url-pattern>/aggiungiArtista</url-pattern>
   </servlet-mapping>
+    <!--Fine Aggiungi Artista -->
+  
+    <!--Inizio Aggiungi Evento -->
   <servlet>
-    <servlet-name>aggiungiEvento</servlet-name>
-    <servlet-class>servlet.AggiungiEvento</servlet-class>
+      	<servlet-name>aggiungiEvento</servlet-name>
+    	<servlet-class>servlet.AggiungiEvento</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>aggiungiEvento</servlet-name>
     <url-pattern>/aggiungiEvento</url-pattern>
   </servlet-mapping>
+   <!--Fine  Aggiungi Evento -->
+   
+   <!--Inizio Aggiungi Canzone -->
   <servlet>
     <servlet-name>aggiungiCanzone</servlet-name>
     <servlet-class>servlet.AggiungiCanzone</servlet-class>
@@ -85,12 +105,20 @@
     <servlet-name>aggiungiCanzone</servlet-name>
     <url-pattern>/aggiungiCanzone</url-pattern>
   </servlet-mapping>
-  <servlet>
-    <servlet-name>Prodotti</servlet-name>
+   <!--Fine Aggiungi Canzone -->
+    <!--Inizio Aggiungi Prodotti -->
+   <servlet>
+   	<servlet-name>Prodotti</servlet-name>
     <servlet-class>servlet.Prodotti</servlet-class>
-  </servlet>
-  <servlet-mapping>
+   </servlet>
+   <servlet-mapping>
     <servlet-name>Prodotti</servlet-name>
     <url-pattern>/prodotti</url-pattern>
-  </servlet-mapping>
+   </servlet-mapping>
+   <!--Fine Aggiungi Prodotti -->
+   
+   
+   
+   
+   
 </web-app>

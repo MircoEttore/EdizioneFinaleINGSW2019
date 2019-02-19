@@ -77,7 +77,7 @@
      
      <p>Benvenuto ${username}</p>
      
-   <li><button  type="button"  onclick="location.href='Logout?logout=true' " class="btn navbar-btn btn-danger"  value="Log Out">Log Out</button></li>
+   <li><button  type="button"  onclick="location.href='logout?logout=true' " class="btn navbar-btn btn-danger"  value="Log Out">Log Out</button></li>
         
       </ul>
      </div>
@@ -216,7 +216,7 @@
              </div>
             </div>
             <div class="song_image ml-lg-auto order-lg-2 order-1">
-             <img src="assets/Caparezza.jpg" alt="">
+             <img src="assets/artists/Caparezza.jpg" alt="">
             </div>
            </div>
 
